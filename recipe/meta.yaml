@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -36,8 +36,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'STUMPY is a powerful and scalable Python library that can be used for a variety of time series data mining tasks
-'
+  summary: 'STUMPY is a powerful and scalable Python library that can be used for a variety of time series data mining tasks '
 
   description: |
     STUMPY is a powerful and scalable Python library that can be used for a variety of time series data mining tasks.
