@@ -1,5 +1,5 @@
 {% set name = "stumpy" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0779c9004bc9479acac01ce2ab04e481dd6f8304f37ef8cf8070db3e2c838cca
+  sha256: 50e632251a66a7c9d75fb616b19dd33d214546602585e59b045bcb8b5ee2fae2
 
 build:
   noarch: python
