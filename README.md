@@ -5,9 +5,13 @@ Home: http://github.com/TDAmeritrade/stumpy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stumpy-feedstock/blob/master/LICENSE.txt)
 
 Summary: STUMPY is a powerful and scalable Python library that can be used for a variety of time series data mining tasks 
+
+Development: https://github.com/TDAmeritrade/stumpy
+
+Documentation: https://github.com/TDAmeritrade/stumpy/blob/master/README.rst
 
 STUMPY is a powerful and scalable Python library that can be used for a variety of time series data mining tasks.
 
