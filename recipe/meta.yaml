@@ -1,5 +1,5 @@
 {% set name = "stumpy" %}
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0dfa93337eadbd34f5f14a2dc3febf02dfb1a7478339ebb45d09a7f33fa3b190
+  sha256: 0282f6b2c665c601927c60b3253a2a090a75a6ef73f7c7f5033a19c2e421059d
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >=3.6
-    - numpy >=1.13
+    - numpy >=1.19
     - scipy >=1.2.1
     - numba >=0.42.0
 
