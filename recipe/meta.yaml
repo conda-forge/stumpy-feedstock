@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -36,10 +36,10 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'STUMPY is a powerful and scalable Python library that computes something called matrix profile, which can then be used for a variety of time series data mining tasks'
+  summary: 'STUMPY is a powerful and scalable Python library that computes something called a matrix profile, which can then be used for a variety of time series data mining tasks'
 
   description: |
-    STUMPY is a powerful and scalable Python library that computes something called matrix profile, which can then be used for a variety of time series data mining tasks.
+    STUMPY is a powerful and scalable Python library that computes something called a matrix profile, which can then be used for a variety of time series data mining tasks.
   doc_url: https://github.com/TDAmeritrade/stumpy/blob/master/README.rst
   dev_url: https://github.com/TDAmeritrade/stumpy
 
