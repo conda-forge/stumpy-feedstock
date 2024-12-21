@@ -6,21 +6,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: f29d3da980412150e7b029ab0cd8e7b132adcbf1c66ef7a4d35d564808bfba8a
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - numpy >=1.17
     - scipy >=1.5
     - numba >=0.54
@@ -28,6 +28,7 @@ requirements:
 test:
   requires:
     - setuptools
+    - python {{ python_min }}
   imports:
     - stumpy
 
