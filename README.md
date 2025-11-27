@@ -3,15 +3,15 @@ About stumpy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stumpy-feedstock/blob/main/LICENSE.txt)
 
-Home: http://github.com/TDAmeritrade/stumpy
+Home: http://github.com/stumpy-dev/stumpy
 
 Package license: BSD-3-Clause
 
-Summary: STUMPY is a powerful and scalable Python library that computes something called a matrix profile, which can then be used for a variety of time series data mining tasks
+Summary: STUMPY is a powerful and scalable Python library that computes something called a matrix profile, which can then be used for a variety of time series data mining tasks.
 
-Development: https://github.com/TDAmeritrade/stumpy
+Development: https://github.com/stumpy-dev/stumpy
 
-Documentation: https://github.com/TDAmeritrade/stumpy/blob/master/README.rst
+Documentation: https://github.com/stumpy-dev/stumpy/blob/master/README.rst
 
 STUMPY is a powerful and scalable Python library that computes something called a matrix profile, which can then be used for a variety of time series data mining tasks.
 
